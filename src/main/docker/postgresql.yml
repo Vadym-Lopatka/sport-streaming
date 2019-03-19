@@ -1,0 +1,11 @@
+version: '2'
+services:
+    sportstream-postgresql:
+        image: postgres:10.4
+        # volumes:
+        #     - ~/volumes/jhipster/sportstream/postgresql/:/var/lib/postgresql/data/
+        environment:
+            - POSTGRES_USER=sportstream
+            - POSTGRES_PASSWORD=
+        ports:
+            - 5432:5432

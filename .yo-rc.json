@@ -1,0 +1,35 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sportstream.myapp"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "sportstream",
+    "packageName": "com.sportstream.myapp",
+    "packageFolder": "com/sportstream/myapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjM3YWZlNGU2NjhlOTRlN2Y5ZDJhYWU3NTZmYmUyMmQ0NDU0NjcxMGFjMDQ2ZWRiZTgyMjM0NTY4YzU0YWQ1YWNkNjRiYWUzMWRjY2VmZGI3Y2E3ODY2YzE4MDdlZjZmNjk4NjkxN2E1YTgyY2UxZTQxNzRjMzQwMjNmNDY2YzE=",
+    "clientFramework": "react",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
