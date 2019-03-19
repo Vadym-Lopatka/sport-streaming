@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "fight",
+            "otherEntityName": "fight",
+            "relationshipType": "many-to-one",
+            "relationshipValidateRules": [
+                "required"
+            ],
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "redTotalScore",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "blueTotalScore",
+            "fieldType": "Double"
+        }
+    ],
+    "changelogDate": "20190315124016",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "round",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": true,
+    "pagination": "infinite-scroll"
+}

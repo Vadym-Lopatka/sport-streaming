@@ -25,7 +25,9 @@
     "clientFramework": "react",
     "useSass": false,
     "clientPackageManager": "npm",
-    "testFrameworks": ["gatling"],
+    "testFrameworks": [
+      "gatling"
+    ],
     "jhiPrefix": "jhi",
     "entitySuffix": "",
     "dtoSuffix": "DTO",

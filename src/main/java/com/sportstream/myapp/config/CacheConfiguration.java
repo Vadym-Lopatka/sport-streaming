@@ -41,6 +41,10 @@ public class CacheConfiguration {
             cm.createCache(com.sportstream.myapp.domain.User.class.getName(), jcacheConfiguration);
             cm.createCache(com.sportstream.myapp.domain.Authority.class.getName(), jcacheConfiguration);
             cm.createCache(com.sportstream.myapp.domain.User.class.getName() + ".authorities", jcacheConfiguration);
+            cm.createCache(com.sportstream.myapp.domain.Fight.class.getName(), jcacheConfiguration);
+            cm.createCache(com.sportstream.myapp.domain.Fight.class.getName() + ".rounds", jcacheConfiguration);
+            cm.createCache(com.sportstream.myapp.domain.Round.class.getName(), jcacheConfiguration);
+            cm.createCache(com.sportstream.myapp.domain.Score.class.getName(), jcacheConfiguration);
             // jhipster-needle-ehcache-add-entry
         };
     }

@@ -1,0 +1,43 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "fightId",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "roundId",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "judgeId",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "value",
+            "fieldType": "Double",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20190315124313",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "score",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": true,
+    "pagination": "infinite-scroll"
+}

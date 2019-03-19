@@ -1,0 +1,56 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "relationships": [
+        {
+            "relationshipName": "round",
+            "otherEntityName": "round",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "fight"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "redCorner",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "blueCorner",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "result",
+            "fieldType": "ResultEnum",
+            "fieldValues": "PENDING,IN_PROGRESS,FINISHED,NOT_HAPPENED,OTHER",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "resultType",
+            "fieldType": "TypeEnum",
+            "fieldValues": "RED_WIN,BLUE_WIN,NOT_DEFINED,OTHER",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "comment",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20190315123638",
+    "dto": "mapstruct",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "fight",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": true,
+    "pagination": "infinite-scroll"
+}
