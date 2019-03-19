@@ -17,7 +17,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "round")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
-public class Round implements Serializable {
+public class Round extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
     

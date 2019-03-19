@@ -23,7 +23,7 @@ import com.sportstream.myapp.domain.enumeration.TypeEnum;
 @Entity
 @Table(name = "fight")
 @Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE)
-public class Fight implements Serializable {
+public class Fight extends AbstractAuditingEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
     
